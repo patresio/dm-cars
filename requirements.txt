@@ -1,0 +1,4 @@
+django
+dj_database_url
+python-decouple
+dj-static
