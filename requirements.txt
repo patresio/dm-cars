@@ -2,3 +2,4 @@ django
 dj_database_url
 python-decouple
 dj-static
+pillow==10.3.0
