@@ -2,7 +2,24 @@
   <ul>
     <li>
       <a href="{% url 'car:list' %}" class="teste">Carros</a>
+    </li>
+    {% if user.is_authenticated %}
+    <li>
       <a href="{% url 'car:new' %}" class="teste">Cadastrar Carro</a>
     </li>
+    <li>
+      <a href="{% url 'accounts:logout' %}" class="teste">Logout</a>
+    </li>
+    <li>
+      Bem Vindo, {{ user.username }}
+    </li>
+    {% else %}
+    <li>
+      <a href="{% url 'accounts:login' %}" class="teste">Login</a>
+    </li>
+    <li>
+      <a href="{% url 'accounts:register' %}" class="teste">Cadastre-se</a>
+    </li>
+    {% endif %}
   </ul>
 </nav>

@@ -1,10 +1,10 @@
 from django.urls import path
 
-from cars.views import car_view, new_car_view
+from cars.views import CarView, NewCarView
 
 app_name = "car"
 
 urlpatterns = [
-    path("", car_view, name="list"),
-    path("new", new_car_view, name="new"),
+    path("", CarView.as_view(), name="list"),
+    path("new", NewCarView.as_view(), name="new"),
 ]
