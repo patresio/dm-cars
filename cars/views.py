@@ -36,7 +36,7 @@ class CarDetailView(DetailView):
 
 
 class CarUpdateView(UpdateView):
-    model: Car
+    model = Car
     form_class = CarModelForm
     template_name = "car_update.html"
     success_url = "/cars/"
