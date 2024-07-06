@@ -7,6 +7,7 @@ class CarModelForm(forms.ModelForm):
     class Meta:
         model = Car
         fields = "__all__"
+        exclude = ("slug",)
 
     def clean_value(self):
         value = self.cleaned_data.get("value")
