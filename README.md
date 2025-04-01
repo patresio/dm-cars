@@ -94,7 +94,7 @@ O objetivo principal do projeto é fornecer uma ferramenta robusta e fácil de u
 -   Gestão de usuários e permissões (controle de acesso baseado em funções)
 
 <div align="center">
-<img src="https://github.com/patresio/dm-cars/raw/master/.gitassets/1.png" width="80%" />  
+<img src="https://github.com/patresio/dm-cars/raw/master/.gitassets/2.jpg" width="80%" />  
 </div>
 
 ## 💎 Links úteis 💎
